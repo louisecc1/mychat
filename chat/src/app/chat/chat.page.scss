@@ -8,9 +8,31 @@ ion-content {
   --color: rgb(226, 217, 217);
 }
 
+ion-grid {
+  --ion-grid-padding: 5px;
+  --ion-grid-padding-xs: 5px;
+  --ion-grid-padding-sm: 5px;
+  --ion-grid-padding-md: 5px;
+  --ion-grid-padding-lg: 5px;
+  --ion-grid-padding-xl: 5px;
+  --ion-grid-width: 100%;
+  --ion-grid-width-xs: 70%;
+  --ion-grid-width-sm: 540px;
+  --ion-grid-width-md: 720px;
+  --ion-grid-width-lg: 960px;
+  --ion-grid-width-xl: 1140px;
+}
+
 #texto{
-  height: 250px;
-  padding: 20px;
+  max-height: 300px;
+  overflow: hidden;
+}
+
+#chat{
+  background-color: rgb(39, 37, 51);
+  font-size: 14pt;
+  overflow-wrap: break-word;
+  border-radius: 10px;
 }
 
 ion-input {
@@ -22,7 +44,7 @@ ion-input {
   --padding-top: 4px;
   margin: 20px;
   border-radius: 10px;
-  width: 170px;
+  width: 170%;
 }
 
 ion-fab-button {
