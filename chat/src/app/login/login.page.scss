@@ -8,11 +8,25 @@ ion-content {
   --color: rgb(226, 217, 217);
 }
 
+ion-grid {
+  --ion-grid-padding: 5px;
+  --ion-grid-padding-xs: 5px;
+  --ion-grid-padding-sm: 5px;
+  --ion-grid-padding-md: 5px;
+  --ion-grid-padding-lg: 5px;
+  --ion-grid-padding-xl: 5px;
+  --ion-grid-width: 100%;
+  --ion-grid-width-xs: 70%;
+  --ion-grid-width-sm: 540px;
+  --ion-grid-width-md: 720px;
+  --ion-grid-width-lg: 960px;
+  --ion-grid-width-xl: 1140px;
+}
+
 ion-input {
   --background: rgb(86, 83, 109);
   --color: rgb(226, 217, 217);
-  margin: 20px;
-  width: 240px;
+  margin-top: 20px;
   border-radius: 20px;
 }
 
