@@ -1,4 +1,3 @@
-
 ion-title {
   --background: rgb(43, 42, 51);
   --color: rgb(226, 217, 217);
@@ -12,14 +11,7 @@ ion-content {
 ion-input {
   --background: rgb(43, 42, 51);
   --color: rgb(226, 217, 217);
-  --padding-bottom: 20px;
-  --padding-end: 20px;
-  --padding-start: 20px;
-  --padding-top: 20px;
-  --placeholder-color: rgb(226, 217, 217);
-  --placeholder-font-style: initial
-  --placeholder-font-weight initial
-  --placeholder-opacity 0.5
+  margin: 20px;
 }
 
 #bot{
