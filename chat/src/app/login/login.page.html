@@ -1,13 +1,19 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>CHATBOT</ion-title>
+    <ion-title>ChatBot</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-card>
-      <ion-img src="assets/image/relajado.png"></ion-img>
+      <ion-img src="assets/image/relajado.png" style="height: 112px"></ion-img>
   </ion-card>
-  <ion-button (click)="login()" expand="block"> Login </ion-button>
-  <ion-button expand="block" color="secondary" routerLink="/register" routerDirection="forward">Register</ion-button>
+  <div text-center>
+    <p>Historia del Bot</p>
+  </div>
+  <div text-center style="margin-top: 150px">
+    <ion-button shape="round" (click)="login()"> Login </ion-button>
+    <br>
+    <ion-button shape="round" color="secondary" routerLink="/register" routerDirection="forward">Register</ion-button>
+  </div>
 </ion-content>
