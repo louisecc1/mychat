@@ -5,15 +5,24 @@
 </ion-header>
 
 <ion-content>
-  <ion-card>
-      <ion-img src="assets/image/relajado.png" style="height: 112px"></ion-img>
-  </ion-card>
-  <div text-center>
-    <p>Historia del Bot</p>
-  </div>
-  <div text-center style="margin-top: 150px">
-    <ion-button shape="round" (click)="login()"> Login </ion-button>
-    <br>
-    <ion-button shape="round" color="secondary" routerLink="/register" routerDirection="forward">Register</ion-button>
-  </div>
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="12">
+        <ion-img src="assets/image/relajado.png" style="height: 112px"></ion-img>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12">
+        <h1>Historia del Bot</h1>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+        <ion-col size="6">
+          <ion-button shape="round" (click)="login()"> Login </ion-button>
+        </ion-col>
+        <ion-col size="6">
+          <ion-button shape="round" color="secondary" routerLink="/register" routerDirection="forward">Register</ion-button>
+        </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
