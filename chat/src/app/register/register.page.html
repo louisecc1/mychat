@@ -1,5 +1,5 @@
 <ion-header>
-    <ion-toolbar>
+    <ion-toolbar color="dark">
       <ion-buttons slot="start">
           <ion-back-button defaultHref="/login"></ion-back-button>
       </ion-buttons>
@@ -8,32 +8,20 @@
   </ion-header>
 
 <ion-content>
-    <ion-list no-lines>
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="12">
+        <ion-input  round type="text" placeholder="Username" name="username" #username></ion-input>
+        <ion-input type="password" placeholder="Password" name="password" #password></ion-input>
+        <ion-input  round type="text" placeholder="FirstName" name="FirstName" #FirstName></ion-input>
+        <ion-input  round type="text" placeholder="LastName" name="LastName" #LastName></ion-input>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-list no-lines>
 
-        <ion-item  >
-    
-          <ion-input  round type="text" placeholder="Username" name="username" #username></ion-input>
-    
-        </ion-item>
-    
-        <ion-item>
-    
-          <ion-input type="password" placeholder="Password" name="password" #password></ion-input>
-    
-        </ion-item>
-        <ion-item  >
-    
-            <ion-input  round type="text" placeholder="FirstName" name="FirstName" #FirstName></ion-input>
-      
-        </ion-item>
-        <ion-item  >
-    
-            <ion-input  round type="text" placeholder="LastName" name="LastName" #LastName></ion-input>
-      
-        </ion-item>
-
-        <ion-button shape="round" (click)="signIn()">Sign In</ion-button>
-        <ion-button shape="round" (click)="signIn()">Register</ion-button>
-       
-      </ion-list>
+      <ion-button shape="round" (click)="signIn()">Sign In</ion-button>
+      <ion-button shape="round" (click)="signIn()">Register</ion-button>
+     
+    </ion-list>
 </ion-content>

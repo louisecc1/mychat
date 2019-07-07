@@ -24,3 +24,11 @@ ion-input {
   border-radius: 10px;
   width: 300px;
 }
+
+ion-fab-button {
+  --background: rgb(68, 63, 100);
+  --background-activated:rgb(35, 33, 44);
+  --background-focused: rgb(177, 177, 177);
+  --background-activated: rgb(35, 33, 44);
+  --background-hover: rgb(35, 33, 44);
+}
