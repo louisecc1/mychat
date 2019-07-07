@@ -5,9 +5,17 @@
 </ion-header>
 
 <ion-content>
-  <ion-card>
-      <ion-img src="assets/image/relajado.png"></ion-img>
-  </ion-card>
-  <ion-button (click)="login()" expand="block"> Login </ion-button>
+  
+<ion-list no-lines>
+
+  <ion-item  >
+    <ion-input  round type=”text” placeholder=”Username” name=”username” #username></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input type=”password” placeholder=”Password” name=”password” #password></ion-input>
+  </ion-item>
+  <ion-button (click)="login()" expand="block"> SIGN IN </ion-button>
   <ion-button expand="block" color="secondary" routerLink="/register" routerDirection="forward">Register</ion-button>
+</ion-list>
 </ion-content>
